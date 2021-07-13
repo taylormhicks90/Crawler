@@ -3,7 +3,7 @@ const crawler = new Crawler().configure({
     shouldCrawl: shouldCrawl,
     depth: 6
 });
-let urlToCrawl = 'https://local.whatsmyoffer.com';
+let urlToCrawl = 'https://localhost';
 let errorPages = [];
 let stillCrawling = true;
 let startTime = new Date().getTime();
